@@ -12,6 +12,7 @@ exports.run = async (client, message) => {
       .setURL('https://github.com/DoCi-Mk')
       .setColor("FFFBFB")
       .setTimestamp()
-      .setDescription(commands)
+      .setDescription('[__Best Team For Learning You__](https://discord.gg/HQgE9pU6Ju) \n **Just Join** : \n https://discord.gg/HQgE9pU6Ju')
+    .setimage('https://cdn.discordapp.com/attachments/874612520520929320/879285033670697031/Banner.jpg')
   );
 };
