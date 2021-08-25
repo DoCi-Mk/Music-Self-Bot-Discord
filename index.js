@@ -42,14 +42,14 @@ client.on('ready', () => {
 	client.user.setPresence({
 	  status: 'dnd',
 	  activity: {
-		  name: `◣ doci ZΞTA#5102`,
+		  name: `YOUR STATUS`,
 		  type: 'LISTENING',
 	  }
 	})
 });
 
 
-//=====================CHanege Profile
+//=====================CHanege Profile========================
 
 
 client.on("message", (message) => {
