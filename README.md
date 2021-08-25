@@ -12,6 +12,14 @@ The Discord Music Self Bot | Create By Doci Mk
 * npm i dotenv
 * npm i dotenv
 
+# 📃 Use .env
+
+* Create `.env` File And Import This Code
+```js
+TOKEN="YOUR TOKEN"
+PREFIX="YOUR PREFIX"
+```
+
 # ❓ Support
 * [Discord Server Support](https://discord.gg/HQgE9pU6Ju)
 * [Invite Bot](https://discord.gg/wUJygGT4Gb)
