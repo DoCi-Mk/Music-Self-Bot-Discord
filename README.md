@@ -11,6 +11,8 @@ The Discord Music Self Bot | Create By Doci Mk
 * npm i ytdl-core
 * npm i dotenv
 * npm i dotenv
+* npm install ffmpeg-static --save
+* npm i @discordjs/opus
 
 # 📃 Use .env
 
