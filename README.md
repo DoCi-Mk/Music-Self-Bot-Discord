@@ -1,7 +1,7 @@
 # Music-Self-Bot-Discord
 The Discord Music Self Bot | Create By Doci Mk
 
-# 📃 Install 
+# 📃 Install Packages
 
 * npm i discord.js-self
 * npm i dotenv
