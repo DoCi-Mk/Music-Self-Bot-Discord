@@ -50,7 +50,6 @@ exports.run = async (client, message, args) => {
         return error("I couldn't find the song you requested!'");
       const data = fetched[0];
       song = {
-        name: Util.escapeMarkdown(data.title),
         thumbnail: data.image,
         requested: message.author,
         videoId: data.videoId,
