@@ -31,7 +31,7 @@ exports.run = async (client, message, args) => {
         .setDescription("**Volume cannot exceed 100 :x: **")
     );
 
-  queue.connection.dispatcher.setVolumeLogarithmic(args[0] / 1000);
+  queue.connection.dispatcher.setVolumeLogarithmic(args[0] / 10000);
   queue.volume = args[0];
   message.channel.send(
     new MessageEmbed()
