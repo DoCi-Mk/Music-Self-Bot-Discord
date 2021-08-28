@@ -90,6 +90,22 @@ if (!message.content.startsWith(prefix) || message.author.bot) return;
 });
 
 
+//==================24/7 Join The Channel =======================Disconnect Nemishe
+client.on('ready', () => {
+  console.log(`${client.user.tag} Online Shod`);
+  setInterval(() => {
+      const channel = client.channels.cache.get("VOICE ID");
+      if (!channel) return console.error("Channeli Vojod Nadarad");
+      channel.join().then(connection => {
+          console.log("Bot Be Channel Join Shod");
+          //connection.voice.setSelfDeaf(true)
+      }).catch(e => {
+
+          console.error(e);
+      })
+  }, 5000); //Time Reconnect Shodan Yani Age Dc She Bad Masalan 3s Barmigarde Voice
+});
+
 
   
 
