@@ -94,11 +94,12 @@ if (!message.content.startsWith(prefix) || message.author.bot) return;
 client.on('ready', () => {
   console.log(`${client.user.tag} Online Shod`);
   setInterval(() => {
-      const channel = client.channels.cache.get("VOICE ID");
+      const channel = client.channels.cache.get("931167615118876692");
       if (!channel) return console.error("Channeli Vojod Nadarad");
       channel.join().then(connection => {
           console.log("Bot Be Channel Join Shod");
-          //connection.voice.setSelfDeaf(true)
+           connection.voice.setSelfDeaf(true);//You Can Changed To True Or False
+           connection.voice.setSelfMute(true);
       }).catch(e => {
 
           console.error(e);
